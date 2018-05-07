@@ -1,0 +1,134 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.products .alternate, .confirmation .alternate{background-color:#f3f3f3; }
+.products th {font-weight: bold;}
+.label_site {float:left;margin:4px 4px 0 0; }
+.post-to-sites{ float:right; color: #21759b;font-weight: bold;}
+.discontinue{ float:right; color: #21759b;font-weight: bold;}
+.feat_img img{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.pushed_info {
+    list-style:disc; margin-left: 20px;
+}
+
+.pushed_info li {
+    color:#555;
+    font-size: 12px;
+}
+
+.products .column-status {
+    width:5%;
+}
+
+.products .column-date {
+    width: 16%;
+}
+
+.products .column-product_name{width:45%;}
+
+td.column-date ul {
+    color: #555;
+}
+
+.products td.column-date{vertical-align: bottom;}
+
+.products-per-page{width: 50%; float: right; text-align: right; margin-bottom: 13px;}
+.products-per-page .per_page{width: 8%;text-align: center}
+.confirmation th {font-weight: bold;}
+.confirmation-content{
+    bottom: 61px;
+    height: auto;
+    left: 0;
+    margin: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: auto;
+}
+
+.confirmation-footer {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #dfdfdf;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 0 0;
+    bottom: 0;
+    box-shadow: 0 -4px 4px -4px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 100;
+}
+
+.confirmation-toolbar {
+    border: 0 solid #dfdfdf;
+    height: 100px;
+    left: 0;
+    overflow: hidden;
+    padding: 0 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.confirmation-toolbar-primary{
+    margin-top: 10px;
+    float: right;
+    height: 100%;
+}
+
+.confirmation-toolbar-secondary{float: left; margin-top: 10px; font-weight: bold;}
+.confirmation tr td .less_than {border: 1px solid red; color: red;}
+.is-active {display: inline-block !important;}
+.spinner_wrap{width: 100%;text-align: center}
+.spinner_wrap .spinner{float: none; display: inline-block;}
+.ui-dialog { font-size: 90%; }
+.ui-dialog-title {font-size: 13px;}
+.ui-dialog-titlebar-close::before{display:none !important;}
+td span .view_history, a.sale_schedule, a.adjust_prices{color: #21759b;}
+.wrap_dropdown{float: left;width: 100%;}
+.view_posts_by {float: left;width: 50%;}
+.pushed_label{color: #008000 !important;}
+.deactivated_label {color: red !important;}
+.ui-dialog {font-family:"Open Sans",sans-serif !important;}
+.history li {list-style-type: circle;font-size: 11px;}
+.wp-list-table.widefat.fixed.confirmation td {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px dotted #ccc;
+    padding-top: 26px;
+    padding-bottom: 28px;
+}
+
+.schedule_data label, .category_dialog label{
+    float: left;
+    padding: 0;
+    width: 150px;
+}
+
+.schedule_data input {
+    width: 28% !important;
+}
+
+.error {border: 1px solid red !important;}
+.ui-accordion-content {
+    height: 115px !important;
+    overflow-y: scroll !important;
+}
+
+ul.children{
+    margin-left: 18px;
+}
+
+.add_new_prod_cat{display: flex; color: #21759b !important;}
